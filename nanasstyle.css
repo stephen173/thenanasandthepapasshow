@@ -1,0 +1,347 @@
+body  {
+  	font: Georgia;
+  	color: black;
+	background-color: #FF5E33;
+  	position: relative;
+	margin: 0 auto;
+	text-align:justify;
+}
+
+#site  {
+	position: relative;
+	background-color: #FFDE96;
+  	width:900px;
+  	font: 32px georgia;
+  	height:655px;
+	margin: 0 auto;
+}
+p  {
+  	font: 16px stint ultra condensed;
+  	text-align: left;
+  	padding: 215px 215px 215px 215px;
+}
+.logo {
+
+	text-decoration: none;
+	border: 0px solid ##FFDE96;
+
+}
+
+.photo {
+	margin: 0 0 0 0;
+	line-height: 1em;
+	text-align:center;
+	background-color: #ffffed;
+
+}
+.photo.right {
+	background-color: #FFDE96;
+	float: right;
+	padding-left: 10px;
+	padding-right: 3px;
+}
+.photo.left {
+	background-color: #FFDE96;
+	float: left;
+	padding-right: 10px;
+}
+article {
+
+}
+article2 {
+	margin-top: 55px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	font: 17px stint ultra condensed;
+	padding: 15px 15px 0 15px;
+  	border-left: 5px;
+  	border-right: 5px;
+	border-top: 5px;
+  	border-bottom: 0px;
+  	width: 580px;
+  	text-align: left;
+  	line-height: 1.1em;
+  	clear: both;
+}
+article iframe{
+	margin-left: -70px;
+	margin-top: -37px;
+}
+.spacer{
+	background-color: #FFDE96;
+	width: 610px;
+	height: 5px;
+	float: left;
+}
+.spacer2{
+	background-color: #FFDE96;
+	width: 5px;
+	height: 205px;
+	float: left;
+}
+
+.photo img {
+	display: block;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+#header  {
+  	height: 115px;
+  	width: 280px;
+  	font: 35px Georgia,"Bitstream Charter",serif;
+  	line-height: 1.2em;
+	padding: 5px 15px 5px 25px;
+	text-align: left;
+	float: left;
+}
+#header2  {
+  	height: 115px;
+  	width: 470px;
+  	font: 27px Georgia,"Bitstream Charter",serif;
+  	padding-left: 20px;
+  	padding-top: 0px;
+  	-webkit-transform: translate(0px,0px); /* Safari and Chrome */
+  	-moz-transform: translate(0px,0px); /* Firefox */
+  	margin-top: -8px;
+   	margin-right: 0px;
+  	margin-left: 10px;
+  	padding-right: 0px;
+  	line-height: 1.2em;
+  	letter-spacing:2px;
+	text-align: left;
+	float: left;
+}
+
+#content2{
+	position: absolute;
+	top: 145px;
+	left:40px;
+	width: 500px;
+	height: 500px;
+	margin: 0 5px 0 5px;
+	padding: 50px 15px 0 15px;
+	font: 16px stint ultra condensed;
+  	border-left: 5px;
+  	border-right: 5px;
+	border-top: 2px;
+  	border-bottom: 0px;
+  	text-align: left;
+  	line-height: 1.1em;
+  	transform: translate(28px,18px);
+	-ms-transform: translate(-30px,18px); /* IE 9 */
+	-webkit-transform: translate(0,10px); /* Safari and Chrome */
+	-o-transform: translate(28px,18px); /* Opera */
+	-moz-transform: translate(5px,12px); /* Firefox */	
+	z-index:4;
+}
+#content3{
+	position: absolute;
+	top: 125px;
+	left:40px;
+	width: 500px;
+	height: 400px;
+	margin: 0 5px 0 5px;
+	padding: 50px 15px 0 15px;
+	font: 16px stint ultra condensed;
+  	border-left: 5px;
+  	border-right: 5px;
+	border-top: 2px;
+  	border-bottom: 0px;
+  	text-align: left;
+  	line-height: 1.1em;
+  	transform: translate(28px,18px);
+	-ms-transform: translate(28px,18px); /* IE 9 */
+	-webkit-transform: translate(0,10px); /* Safari and Chrome */
+	-o-transform: translate(28px,18px); /* Opera */
+	-moz-transform: translate(-5px,12px); /* Firefox */
+	z-index:4;
+}
+
+#footer  {
+	position: absolute;
+	margin: 330px 0 0px 0;
+  	transform: translate(13px,2px);
+	-ms-transform: translate(-1px,7px); /* IE 9 */
+	-webkit-transform: translate(50,5px); /* Safari and Chrome */
+	-o-transform: translate(3px,18px); /* Opera */
+	-moz-transform: translate(-2px,0px); /* Firefox */
+	padding-top: 15px;
+	height: 60px;
+  	width: 606px;
+	border: 0px solid #FF5E33;
+ 	float: left;
+ 	letter-spacing:2px
+ 	top: 450px;
+ 	border-style:none;
+ 	z-index: 2;
+}
+
+#footer img{
+	-webkit-transform: translate(-5px,-5px); /* Safari and Chrome */
+	-moz-transform: translate(-5px,-5px); /* Firefox */
+		-ms-transform: translate(0,-10px); /* IE 9 */
+	 	z-index: 2;
+	text-decoration: none;
+    border : 0;
+    border-style: none;
+}
+
+#header5 img{
+	-webkit-transform: translate(-5px,-5px); /* Safari and Chrome */
+	-moz-transform: translate(-5px,-5px); /* Firefox */
+}
+h1  {
+  	background:url(images/ipodHeader.jpg) no-repeat right top;
+  	height: 105px;
+  	width: 300px;
+  	font: 35px Times;
+  	line-height: 1.2em;
+	padding: 5px 15px 5px 15px;
+	text-align: left;
+	float: left;
+
+}
+h2  {
+  	font: 16px Times;
+	font-weight:bold;
+}
+  #home{
+  border: 1px solid #FF5E33;
+  width: 121px;
+}
+
+#container{
+	position: absolute;
+	top: 72px;
+	left: 145px;
+	width: 609px;
+	height: 160px;
+	border: 2px solid #FF5E33;
+	float: left;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 600px;
+}
+#contactform {
+	border:0px solid #FF5E33;
+	width: 480px;
+	margin: 40px;
+	padding: 15px 0 0 0;
+    -moz-transform: translate(0,-6px); /* Firefox */
+}
+label {
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+    .header1{
+        position: absolute;
+        top: 72px;
+        left: 151px;
+        width: 598px;
+        height: 160px;
+        border: 2px solid #FF5E33;
+        float: left;
+    }
+
+input, textarea {
+	width: 310px;
+	padding: 5px;
+	margin: 0px 0px 10px 0px;
+}
+
+input.submit {
+	width: 100px;
+	margin-left: 208px;
+}
+
+p.error {
+	color: red;
+	text-transform: uppercase;
+}
+
+p.sent {
+	color: green;
+}
+
+#content  {
+  	padding: 10px 10px 15px 15px;
+  	font: 12px Stint Ultra Condensed;
+}
+#content p {
+	margin: 10px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
+	line-height: 1.5;
+}
+
+#upcoming {
+	margin: -2px 0 0 0;
+  	transform: translate(3px,1px);
+	-ms-transform: translate(-2px,-1px); /* IE 9 */
+	-webkit-transform: translate(-2px,-1px); /* Safari and Chrome */
+	-o-transform: translate(0px,0px); /* Opera */
+	-moz-transform: translate(-2px,-2px); /* Firefox */
+	padding-top: 2px;
+	padding-left: 5px;
+  	font: 19px georgia;
+	color: black;
+  	height: 26px;
+  	width: 604px;
+	border: 2px solid #FF5E33;
+ 	float: left;
+ 	line-height: 1.3em;
+}
+#upcoming a{
+  	text-decoration: none;
+  	color: black;
+  	font: 19px georgia;
+}
+
+.last{
+  	margin-right: 0;
+}
+
+.clear  {
+  	clear: both;
+  	font: 32px georgia;
+  	margin: 220px 220px 220px 220px;
+  	padding: 215px 215px 215px 215px;
+}
+	
+.nav {
+	background-color: #FFDE96;
+	position: absolute;	
+	left: 151px;
+	width: 609px;
+	height: 40px;
+	margin: 0 auto;
+	}
+
+.nav > li {
+	float: left;
+	}
+.nav li {
+   	list-style-type: none;
+	}
+	
+.nav li a {
+	color: black;
+	display: block;			
+	margin: 8px 2px 5px 2px;
+	padding: 4px 0px 4px 0px;
+	font: 20px Stint Ultra Condensed;
+	font-weight: bold;
+	text-decoration: none;
+	border: 1px solid #FFDE96;
+	width: 113px;
+	text-align: center;
+	}
+	
+.nav li.active > a,
+	.nav > li:hover > a {
+		color: white;
+	}
